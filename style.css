@@ -49,7 +49,7 @@ body {
   width: 20px;
   height: 20px;
   background: none;
-  background-image: url("assets/avatar.png");
+  background-image: url("assets/avatar-white.png");
   background-repeat: round;
   border: none;
 }
@@ -83,7 +83,7 @@ body {
 }
 
 .profile {
-  background-image: url("assets/avatar.png");
+  background-image: url("assets/avatar-blue.png");
 }
 
 
