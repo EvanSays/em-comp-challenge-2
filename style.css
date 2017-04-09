@@ -1,0 +1,509 @@
+/*=======================================
+>>>>>>>>  Normalize  <<<<<<<<
+========================================*/
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: #EFEFEF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/*=======================================
+>>>>>>>>  Images  <<<<<<<<
+========================================*/
+
+.ghost2 {
+  display: none;
+}
+
+.ghost {
+  width: 60px;
+  height: 60px;
+  background: none;
+  background-image: url("assets/ghostly-logo.png");
+  background-repeat: round;
+  border: none;
+  margin: 14px;
+}
+
+.user {
+  display: none;
+  width: 20px;
+  height: 20px;
+  background: none;
+  background-image: url("assets/avatar.png");
+  background-repeat: round;
+  border: none;
+}
+
+.arrow {
+  width: 15px;
+  height: 15px;
+  background: none;
+  background-image: url("assets/down-arrow.png");
+  background-repeat: round;
+  border: none;
+}
+
+.share,
+.burger,
+.profile {
+  display: none;
+  width: 16px;
+  height: 16px;
+  background: none;
+  background-repeat: round;
+  border: none;
+}
+
+.share {
+  background-image: url("assets/share.png");
+}
+
+.burger {
+  background-image: url("assets/list.png");
+}
+
+.profile {
+  background-image: url("assets/avatar.png");
+}
+
+
+/*=======================================
+>>>>>>>>  Logo  <<<<<<<<
+========================================*/
+
+.logo-space-holder {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  background: #2B2B2B;
+}
+
+.logo-wrapper {
+  display: flex;
+}
+
+/*=======================================
+>>>>>>>>  Profile  <<<<<<<<
+========================================*/
+
+.profile-space-holder {
+  display: flex;
+}
+
+.profile-wrapper {
+  display: flex;
+  margin: 5px;
+}
+
+
+/*=======================================
+>>>>>>>>  Nav  <<<<<<<<
+========================================*/
+
+nav {
+  background: #2B2B2B;
+  width: 100vw;
+  height: 82px;
+}
+
+.nav-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+
+.nav-share-wrapper,
+.nav-playlist-wrapper,
+.nav-videos-wrapper {
+  display: flex;
+}
+
+h2 {
+  font-size: 12px;
+  color: white;
+  font-weight: 400;
+}
+
+
+/*=======================================
+>>>>>>>>  Shares Wrapper  <<<<<<<<
+========================================*/
+
+.shares-wrapper {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background: #EFEFEF;
+  margin: 6px 6px 6px 6px;
+}
+
+.shares-text {
+  background: #EFEFEF;
+  font-size: 30px;
+  color: #484848;
+  width: 260px;
+  margin: 20px 0 20px 0px;
+}
+
+
+/*=======================================
+>>>>>>>>  Article / Cards  <<<<<<<<
+========================================*/
+
+article {
+  margin: 6px 6px 6px 6px;
+  width: 260px;
+  height: 345px;
+  box-shadow: 0px 0px 1px 1px #888888;
+}
+
+.card-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 120px;
+}
+
+.views-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 14px;
+}
+
+.body-wrapper {
+  display: flex;
+  margin: 15px;
+  height: 200px;
+  flex-direction: column;
+}
+
+.body {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+}
+
+.body-2-wrapper {
+  background: #EFEFEF;
+}
+
+/*=======================================
+>>>>>>>>  Hidden  <<<<<<<<
+========================================*/
+
+.shares-hidden1,
+.shares-hidden2,
+.shares-hidden3,
+.shares-hidden4,
+.shares-hidden5,
+.shares-hidden6 {
+  display: none;
+}
+
+.article-hide-1,
+.article-hide-2,
+.article-hide-3,
+.article-hide-4,
+.article-hide-5 {
+  display: none;
+}
+
+
+/*=======================================
+>>>>>>>>  Card Images  <<<<<<<<
+========================================*/
+
+.image-1,
+.image-2,
+.image-3,
+.image-4,
+.image-5,
+.image-6,
+.image-7,
+.image-8 {
+  background-size: cover;
+}
+
+.image-1 {
+  background-image: url(assets/dauwd1.png);
+}
+
+.image-2 {
+  background-image: url(assets/gold-panda1.png);
+}
+
+.image-3 {
+  background-image: url(assets/heathered-pearls2.png);
+}
+
+.image-4 {
+  background-image: url(assets/phantogram1.png);
+}
+
+.image-5 {
+  background-image: url(assets/mathew-dear.png);
+}
+
+.image-6 {
+  background-image: url(assets/com-truise1.png);
+}
+
+.image-7 {
+  background-image: url(assets/tobacco1.png);
+}
+
+.image-8 {
+  background-image: url(assets/tycho1.png);
+}
+
+img {
+  width: 40px;
+  filter: invert(100%);
+  width: 40px;
+  height: 40px;
+  margin: 16px;
+  transform: scale(1, -1);
+}
+
+
+/*=======================================
+>>>>>>>>  Fonts  <<<<<<<<
+========================================*/
+
+.logo-h1 {
+  font-size: 43px;
+  color: white;
+  display: none;
+}
+
+.profile-h4 {
+  margin-right: 5px;
+  font-size: 11px;
+  color: #28A5E5;
+  font-weight: 400;
+}
+
+.nav-h2 {
+  text-transform: uppercase;
+  margin-left: 4px;
+}
+
+.views-h4 {
+  color: white;
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.counter-p-1 {
+  font-size: 25px;
+  color: white;
+}
+
+.artist-h3 {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.date-h3 {
+  font-size: 10px;
+  font-weight: 400;
+  color: #757575;
+}
+
+.url-p {
+  font-size: 10px;
+  margin: 5px;
+}
+
+.playlist-h4 {
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.name-playlist-h4 {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.attachment-h4 {
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.counter-p {
+  font-size: 25px;
+  color: #23B3FE;
+}
+
+
+/*=======================================
+>>>>>>>>  Body  <<<<<<<<
+========================================*/
+
+.body-container {
+  display: flex;
+  /*height: 100vh;*/
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*=======================================
+>>>>>>>>  Media Querys  <<<<<<<<
+========================================*/
+
+@media screen and (min-width: 544px) {
+  .shares-hidden1 {
+    display: flex;
+  }
+  .nav-h2 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 755px) {
+  .nav-wrapper {
+    justify-content: space-between;
+    width: 470px;
+    padding-bottom: 22px;
+  }
+  .nav-share-wrapper,
+  .nav-playlist-wrapper,
+  .nav-videos-wrapper {
+    display: flex;
+    margin-left: 55px;
+    align-items: center;
+  }
+  .nav-h2 {
+    text-transform: uppercase;
+    color: grey;
+  }
+  .shares-h2 {
+    color: white;
+  }
+  .ghost {
+    display: none;
+  }
+  .user {
+    margin: -6px;
+    margin-right: 6px;
+    display: inline-block;
+  }
+  .arrow {
+    margin: 0px;
+  }
+  .profile-wrapper {
+    margin: 15px;
+  }
+  .logo-wrapper-2 {
+    width: 238px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+  }
+  .logo-h1-2, .ghost2 {
+    display: flex;
+    margin: 0;
+    font-family: 'Bree Serif', serif;
+    font-size: 40px;
+  }
+  .ghost2 {
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .burger, .share, .profile {
+    display: flex;
+  }
+  .shares-hidden1 {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .article-hide-1 {
+    display: flex;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+@media screen and (min-width: 816px) {
+  .shares-hidden2 {
+    display: flex;
+  }
+  .article-hide-2 {
+    display: flex;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .shares-hidden3 {
+    display: flex;
+  }
+  .article-hide-3 {
+    display: flex;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .shares-hidden4 {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1632px) {
+  .shares-hidden5 {
+    display: flex;
+  }
+  .article-hide-4 {
+    display: flex;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+@media screen and (min-width: 1632px) {
+  .shares-hidden6 {
+    display: flex;
+  }
+  .article-hide-5 {
+    display: flex;
+    border: none;
+    box-shadow: none;
+  }
+}

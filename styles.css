@@ -1,0 +1,184 @@
+/*=======================================
+>>>>>>>>  Normalize  <<<<<<<<
+========================================*/
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  border: 1px solid blue
+}
+
+header {
+  display: flex;
+  align-items: flex-end;
+  background: #2B2B2B;
+  border: 1px solid black;
+  height: 140px;
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  /*border: 1px solid black;*/
+  /*position: absolute;*/
+  width: 100%;
+  height: 25%;
+  bottom: 0;
+}
+
+.nav-share-wrapper,
+.nav-videos-wrapper,
+.nav-playlist-wrapper {
+  display: flex;
+  align-items: center;
+  /*border: 1px solid black;*/
+}
+
+.nav-button, .nav-h2 {
+  align-items: center;
+  float: left;
+  margin: 0;
+  color: #878787;
+  /*color:white;*/
+  text-transform: uppercase;
+  font-size: 10px;
+  padding-left: 5px;
+  font-weight: 200;
+
+}
+
+.share {
+  display: none;
+  width: 20px;
+  height: 20px;
+  background: none;
+  background-image: url("assets/fast-food.png");
+  background-repeat: round;
+  border: none;
+}
+
+.burger {
+  display: none;
+  width: 20px;
+  height: 20px;
+  background: none;
+  background-image: url("assets/burger.png");
+  background-repeat: round;
+  border: none;
+}
+
+.profile {
+  display: none;
+  width: 20px;
+  height: 20px;
+  background: none;
+  background-image: url("assets/fries.png");
+  background-repeat: round;
+  border: none;
+}
+
+.astronaut {
+  width: 40px;
+  height: 40px;
+  background: none;
+  background-image: url("assets/rocket-icon-white.png");
+  background-repeat: round;
+  border: none;
+}
+.user {
+  width: 20px;
+  height: 20px;
+  background: none;
+  background-image: url("assets/user-white.png");
+  background-repeat: round;
+  border: none;
+}
+.arrow {
+  width: 20px;
+  height: 20px;
+  background: none;
+  background-image: url("assets/down-arrow.png");
+  background-repeat: round;
+  border: none;
+  float:right;
+}
+
+.shares-h2 {
+  color: white;
+}
+
+.wrapper,
+.profile-button,
+.profile-h4,
+.logo-button {
+  /*float: right;*/
+  margin: 0;
+}
+
+.logo-h1, .logo-button {
+  /*position: absolute;
+  bottom: 0;
+  right: 0;*/
+  display: inline-block;
+  margin: 0;
+  color: white;
+}
+
+.profile-h4 {
+  color: #27A1DF;
+  display: inline-block;
+  font-size: 12px;
+
+}
+.logo-space-holder {
+  display: flex;
+  justify-content: center;
+}
+.logo-wrapper {
+  align-items: baseline;
+  margin-top: 18px;
+}
+.profile-wrapper {
+  align-content: flex-end;
+}
+.profile-space-holder {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*=======================================
+>>>>>>>>  Cards  <<<<<<<<
+========================================*/
+/*.article-main-wrapper {
+  /*display: flex;
+  height: 100%;*/
+  /*background: blue;*/
+}
+.card-header-wrapper {
+  background-image: url();
+}
+.fast-forward-button {
+  width: 20px;
+  height: 20px;
+  background: none;
+  background-image: url("assets/forward-arrow.png");
+  background-repeat: round;
+  border: none;
+}*/
